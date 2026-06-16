@@ -39,9 +39,18 @@ fila pendente
 
 ## Traces
 
-Traces ajudam a acompanhar uma requisição passando por vários serviços.
+Traces ajudam a acompanhar uma requisição passando por vários serviços — essencial em sistemas distribuídos, onde um log isolado não mostra o caminho completo de uma falha.
 
-São úteis em sistemas distribuídos.
+### Na prática (OpenTelemetry)
+
+```txt
+um trace ID único é gerado na entrada da requisição
+esse ID é propagado entre serviços via header (ex.: traceparent)
+cada serviço cria spans (etapas) dentro do mesmo trace
+logs e métricas referenciam o trace ID, permitindo correlacionar os 3 pilares
+```
+
+OpenTelemetry é o padrão vendor-neutral para instrumentar logs, métricas e traces — evita prender a instrumentação a um fornecedor específico (a ferramenta que recebe os dados pode trocar sem reescrever a instrumentação no código).
 
 ---
 
@@ -52,4 +61,6 @@ São úteis em sistemas distribuídos.
 - [ ] Existem métricas mínimas?
 - [ ] Tempo de resposta é observável?
 - [ ] Falhas externas são rastreáveis?
+- [ ] Uma requisição pode ser seguida de ponta a ponta por um trace ID, mesmo passando por mais de um serviço?
+- [ ] Logs e traces podem ser correlacionados (mesmo ID em ambos)?
 

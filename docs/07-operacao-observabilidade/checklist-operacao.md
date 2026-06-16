@@ -29,3 +29,5 @@ Use depois da publicação e durante a manutenção.
 - [ ] Incidentes são documentados.
 - [ ] Há plano de rollback ou restauração.
 
+Ver também: [infraestrutura-como-codigo.md](infraestrutura-como-codigo.md).
+

@@ -41,3 +41,5 @@ deploy
 - [ ] Falhas bloqueiam publicação?
 - [ ] Variáveis de ambiente estão configuradas no ambiente correto?
 
+Ver também: [supply-chain-security.md](../02-seguranca-appsec/supply-chain-security.md) (auditoria de dependências, SBOM, assinatura de build).
+

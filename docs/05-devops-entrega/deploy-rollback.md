@@ -39,3 +39,5 @@ restaurar backup
 - [ ] A equipe sabe como reverter?
 - [ ] Logs podem ser consultados após publicação?
 
+Ver também: [entrega-progressiva.md](entrega-progressiva.md) (canary, blue-green, feature flag) e [metricas-dora.md](metricas-dora.md).
+

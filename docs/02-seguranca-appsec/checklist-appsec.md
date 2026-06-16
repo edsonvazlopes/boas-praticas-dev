@@ -39,3 +39,5 @@ Use este checklist em projetos com login, formulários, banco de dados, integra�
 - [ ] HTTPS está ativo.
 - [ ] Headers de segurança foram considerados.
 
+Ver também: [gestao-de-segredos.md](gestao-de-segredos.md) e [supply-chain-security.md](supply-chain-security.md) para um nível mais maduro de segredos e dependências.
+

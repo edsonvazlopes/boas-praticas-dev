@@ -46,3 +46,5 @@ São úteis para fluxos críticos, mas não devem cobrir tudo.
 - [ ] Testes são executáveis por comando?
 - [ ] Testes não dependem de ordem escondida?
 
+Ver também: [testes-contrato-resiliencia.md](testes-contrato-resiliencia.md) e [testabilidade.md](testabilidade.md).
+

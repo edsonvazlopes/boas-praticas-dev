@@ -68,7 +68,7 @@ Todo projeto minimamente sério precisa pensar em dados, mesmo quando parece ser
 
 AppSec é a segurança aplicada ao desenvolvimento: autenticação, autorização, validação de entrada, segredos, headers de segurança e proteção contra XSS/CSRF/injection. Para um site público simples tende a ser mais leve; para sistemas com login, pagamento ou dados sensíveis, vira pilar central.
 
-📄 Detalhes: [02-seguranca-appsec/checklist-appsec.md](../02-seguranca-appsec/checklist-appsec.md), [owasp-basico.md](../02-seguranca-appsec/owasp-basico.md), [secure-by-design.md](../02-seguranca-appsec/secure-by-design.md), [validacao-entrada.md](../02-seguranca-appsec/validacao-entrada.md), [autenticacao-autorizacao.md](../02-seguranca-appsec/autenticacao-autorizacao.md)
+📄 Detalhes: [02-seguranca-appsec/checklist-appsec.md](../02-seguranca-appsec/checklist-appsec.md), [owasp-basico.md](../02-seguranca-appsec/owasp-basico.md), [secure-by-design.md](../02-seguranca-appsec/secure-by-design.md), [validacao-entrada.md](../02-seguranca-appsec/validacao-entrada.md), [autenticacao-autorizacao.md](../02-seguranca-appsec/autenticacao-autorizacao.md), [gestao-de-segredos.md](../02-seguranca-appsec/gestao-de-segredos.md), [supply-chain-security.md](../02-seguranca-appsec/supply-chain-security.md)
 
 ---
 
@@ -84,7 +84,7 @@ Próxima de segurança, mas não é a mesma coisa: segurança impede acesso inde
 
 Um projeto bem começado já nasce com uma forma de verificar se não quebrou: lint, type checking, testes unitários, integração, E2E e checklist antes do deploy.
 
-📄 Detalhes: [04-qualidade-testes/checklist-qualidade.md](../04-qualidade-testes/checklist-qualidade.md), [piramide-de-testes.md](../04-qualidade-testes/piramide-de-testes.md), [testabilidade.md](../04-qualidade-testes/testabilidade.md), [code-review.md](../04-qualidade-testes/code-review.md)
+📄 Detalhes: [04-qualidade-testes/checklist-qualidade.md](../04-qualidade-testes/checklist-qualidade.md), [piramide-de-testes.md](../04-qualidade-testes/piramide-de-testes.md), [testabilidade.md](../04-qualidade-testes/testabilidade.md), [testes-contrato-resiliencia.md](../04-qualidade-testes/testes-contrato-resiliencia.md), [code-review.md](../04-qualidade-testes/code-review.md)
 
 ---
 
@@ -92,7 +92,7 @@ Um projeto bem começado já nasce com uma forma de verificar se não quebrou: l
 
 Responde: como o código sai da minha máquina e chega em produção? Git, branches, commits, CI/CD, ambientes, rollback e variáveis de ambiente.
 
-📄 Detalhes: [05-devops-entrega/checklist-pre-deploy.md](../05-devops-entrega/checklist-pre-deploy.md), [ci-cd.md](../05-devops-entrega/ci-cd.md), [deploy-rollback.md](../05-devops-entrega/deploy-rollback.md), [git-commits-branches.md](../05-devops-entrega/git-commits-branches.md), [ambientes-env.md](../05-devops-entrega/ambientes-env.md)
+📄 Detalhes: [05-devops-entrega/checklist-pre-deploy.md](../05-devops-entrega/checklist-pre-deploy.md), [ci-cd.md](../05-devops-entrega/ci-cd.md), [deploy-rollback.md](../05-devops-entrega/deploy-rollback.md), [entrega-progressiva.md](../05-devops-entrega/entrega-progressiva.md), [metricas-dora.md](../05-devops-entrega/metricas-dora.md), [git-commits-branches.md](../05-devops-entrega/git-commits-branches.md), [ambientes-env.md](../05-devops-entrega/ambientes-env.md)
 
 ---
 
@@ -100,7 +100,7 @@ Responde: como o código sai da minha máquina e chega em produção? Git, branc
 
 Mesmo com deploy em Cloudflare Pages, Vercel ou Netlify, ainda existe operação: DNS, SSL/TLS, cache, backup, monitoramento, alertas e custos. Evita que o projeto funcione apenas "por sorte".
 
-📄 Detalhes: [07-operacao-observabilidade/checklist-operacao.md](../07-operacao-observabilidade/checklist-operacao.md), [health-check.md](../07-operacao-observabilidade/health-check.md)
+📄 Detalhes: [07-operacao-observabilidade/checklist-operacao.md](../07-operacao-observabilidade/checklist-operacao.md), [health-check.md](../07-operacao-observabilidade/health-check.md), [infraestrutura-como-codigo.md](../07-operacao-observabilidade/infraestrutura-como-codigo.md)
 
 ---
 
