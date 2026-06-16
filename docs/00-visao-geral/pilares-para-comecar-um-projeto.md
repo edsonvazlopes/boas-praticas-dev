@@ -54,6 +54,8 @@ Arquitetura é o conjunto de decisões estruturais que sustenta o projeto: stack
 
 📄 Detalhes: [01-arquitetura-stack/checklist-arquitetura.md](../01-arquitetura-stack/checklist-arquitetura.md), [arquitetura-limpa.md](../01-arquitetura-stack/arquitetura-limpa.md), [arquitetura-hexagonal.md](../01-arquitetura-stack/arquitetura-hexagonal.md), [ddd.md](../01-arquitetura-stack/ddd.md), [adr-decisoes-arquiteturais.md](../01-arquitetura-stack/adr-decisoes-arquiteturais.md)
 
+No dia a dia de código, esse pilar também vive em [03-boas-praticas-codigo/](../03-boas-praticas-codigo/): [clean-code.md](../03-boas-praticas-codigo/clean-code.md), [solid.md](../03-boas-praticas-codigo/solid.md), [dry-kiss-yagni.md](../03-boas-praticas-codigo/dry-kiss-yagni.md), [coesao-acoplamento.md](../03-boas-praticas-codigo/coesao-acoplamento.md), [padroes-de-projeto.md](../03-boas-praticas-codigo/padroes-de-projeto.md), [consciencia-de-abstracao.md](../03-boas-praticas-codigo/consciencia-de-abstracao.md)
+
 ---
 
 ## 3. Dados

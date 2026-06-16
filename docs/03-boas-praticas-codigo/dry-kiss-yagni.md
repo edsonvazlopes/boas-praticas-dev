@@ -40,3 +40,5 @@ Não implemente funcionalidades, camadas, abstrações ou configurações apenas
 - [ ] Alguma funcionalidade foi criada sem necessidade atual?
 - [ ] O código pode ser simplificado sem perder clareza?
 
+Ver também: [consciencia-de-abstracao.md](consciencia-de-abstracao.md) — KISS é sobre sua solução ser simples; consciência de abstração é sobre entender o que você está delegando para algo que não escreveu.
+
